@@ -25,23 +25,8 @@ gulp.task("style", function () {
         .pipe(gulp.dest(rootdir + "/styles"));
 });
 
-gulp.task("adminStyle", function () {
-    return gulp.src(rootdir + "/styles/sass/admin1.scss")
-        // Sass
-        .pipe(sass({
-            includePaths: require("node-neat").includePaths,
-            style: "compressed"
-        }).on("error", sass.logError))
-        // Prefixes
-        .pipe(autoprefixer({
-            browsers: ["> 1%"],
-            cascade: false
-        }))
-        .pipe(gulp.dest(rootdir + "/styles"));
-});
-
 // Production
-gulp.task("production", ["style", "adminStyle"], function() {
+gulp.task("production", ["style"], function() {
     return gulp.src(rootdir + "/styles/master.css")
     // Minify
         .pipe(cleanCSS({

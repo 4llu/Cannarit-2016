@@ -1,16 +1,16 @@
 {
-  "name": "",
+  "name": "Cannarit-2016",
   "version": "1.0.0",
-  "description": "",
+  "description": "Homepage for Cännärit 2016 (party held by Computer scienve guild freshmen)",
   "main": "",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": ""
+    "url": "https://github.com/4llu/Cannarit-2016"
   },
-  "author": "",
+  "author": "Aleksanteri Hämäläinen",
   "license": "ISC",
   "dependencies": {
     "gulp": "^3.9.1",

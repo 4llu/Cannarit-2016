@@ -1,0 +1,15 @@
+.languagebar {
+    width: 100%;
+    position: absolute;
+    text-align: right;
+    z-index: 99;
+}
+
+.language-options {
+    padding: .5rem .75rem;
+
+    li {
+        display: inline-block;
+        padding-left: .5rem;
+    }
+}

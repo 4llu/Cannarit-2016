@@ -1,0 +1,25 @@
+.hero-block {
+    position: relative;
+    height: calc(100vh - 4px);
+}
+
+.hero__background {
+    @include size(100%);
+    object-fit: cover;
+}
+
+.hero__logo {
+    @include position(absolute, 50% null null 50%);
+    transform: translate(-50%, -50%);
+
+    h1 {
+        font-size: 5rem;
+        // -webkit-text-stroke: 3px white;
+        // text-shadow:
+        //    6px 6px 0 #fff,
+        //  -2px -2px 0 #fff,
+        //   2px -2px 0 #fff,
+        //   -2px 2px 0 #fff,
+        //    2px 2px 0 #fff;
+    }
+}
