@@ -11,15 +11,10 @@
 .hero__logo {
     @include position(absolute, 50% null null 50%);
     transform: translate(-50%, -50%);
+    width: 90%;
+    max-width: 830px;
 
-    h1 {
-        font-size: 5rem;
-        // -webkit-text-stroke: 3px white;
-        // text-shadow:
-        //    6px 6px 0 #fff,
-        //  -2px -2px 0 #fff,
-        //   2px -2px 0 #fff,
-        //   -2px 2px 0 #fff,
-        //    2px 2px 0 #fff;
+    img {
+        width: 100%;
     }
 }

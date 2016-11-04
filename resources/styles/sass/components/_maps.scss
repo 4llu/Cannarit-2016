@@ -1,10 +1,19 @@
 .maps {
     display: flex;
-    justify-content: space-between;
+    // justify-content: spa;
+    align-items: center;
+    flex-direction: column;
+    @include media (850px) {
+        flex-direction: row;
+        justify-content: space-between;
+    };
 }
 
 .map-wrapper {
-    width: 48%;
+    width: 80%;
+    @include media (850px) {
+        width: 48%;
+    };
 }
 
 .map {
