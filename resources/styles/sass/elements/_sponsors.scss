@@ -1,0 +1,13 @@
+.sponsors {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.sponsor {
+    width: 25%;
+
+    img {
+        width: 100%
+    }
+}
