@@ -1,0 +1,19 @@
+.maps {
+    display: flex;
+    justify-content: space-between;
+}
+
+.map-wrapper {
+    width: 48%;
+}
+
+.map {
+    width: 100%;
+    height: 400px;
+}
+
+.map__title {
+    display: block;
+    margin-bottom: .5rem;
+    font-size: 1.25rem;
+}

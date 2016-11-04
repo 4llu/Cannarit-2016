@@ -17,7 +17,21 @@ h6 {
   margin: 0 0 $small-spacing;
 }
 
+h2 {
+    font-size: modular-scale(5);
+    margin-bottom: 1rem;
+}
+
+h3 {
+    font-size: modular-scale(3)
+}
+
+h4 {
+    font-size: modular-scale(2)
+}
+
 p {
+  font-size: 1.1rem;
   margin: 0 0 $small-spacing;
 }
 
@@ -31,6 +45,10 @@ a {
   &:hover {
     color: shade($action-color, 25%);
   }
+}
+
+strong {
+    font-weight: bold;
 }
 
 hr {

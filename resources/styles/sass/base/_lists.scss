@@ -5,6 +5,12 @@ ol {
   padding: 0;
 }
 
+ul.text {
+    list-style: circle;
+    padding-left: 2.8rem;
+    margin-bottom: $small-spacing;
+}
+
 dl {
   margin: 0;
 }
