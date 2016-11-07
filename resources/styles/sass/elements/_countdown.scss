@@ -6,8 +6,12 @@
 
 .countdown__title {
     display: block;
-    font-size: 3rem;
+    font-size: 2rem;
     font-weight: bold;
+    line-height: 1.2;
+    @include media(820px) {
+        font-size: 3rem;
+    }
 }
 
 .countdown__text {
@@ -17,12 +21,17 @@
 .counter {
     margin: 2rem 0;
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     font-size: 3rem;
+    // font-size: 2rem;
 }
 
-.counter__section:not(:last-of-type) {
-    margin-right: 0.8rem;
+.counter__section {
+    margin-bottom: 1rem;
+    &:not(:last-of-type) {
+        margin-right: 0.8rem;
+    }
 }
 
 .counter__digit {
@@ -40,4 +49,10 @@
 
 .counter__unit {
     margin-left: -0.5rem;
+
+    @include media(536px) {
+        .u-invisible-text {
+            display: none;
+        }
+    }
 }

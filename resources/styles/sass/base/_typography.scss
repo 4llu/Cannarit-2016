@@ -62,3 +62,7 @@ hr {
   border-top: 0;
   margin: $base-spacing 0;
 }
+
+.u-invisible-text {
+    color: rgba(0, 0, 0, 0) !important;
+}
