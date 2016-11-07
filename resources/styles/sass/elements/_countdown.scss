@@ -2,12 +2,42 @@
     margin: 2rem;
     text-align: center;
 
-    h2 {
-        font-size: 2rem;
+}
+
+.countdown__title {
+    display: block;
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+.countdown__text {
+    font-size: 1.2rem;
+}
+
+.counter {
+    margin: 2rem 0;
+    display: flex;
+    justify-content: center;
+    font-size: 3rem;
+}
+
+.counter__section:not(:last-of-type) {
+    margin-right: 0.8rem;
+}
+
+.counter__digit {
+    display: inline-block;
+    padding: 1rem;
+    line-height: 1;
+    color: white;
+    background-color: #333;
+    border-radius: 4px;
+
+    &:nth-of-type(2n) {
+        margin-left: -0.5rem;
     }
 }
 
-.countdown__counter {
-    display: block;
-    font-size: 4.5rem;
+.counter__unit {
+    margin-left: -0.5rem;
 }

@@ -6,6 +6,8 @@
         <title>Cännärit 2016</title>
 
         <link rel="stylesheet" href="resources/styles/master.css" media="screen">
+        <script src="https://code.jquery.com/jquery-3.1.1.min.js" type="text/javascript"></script>
+        <script src="resources/js/counter.js" type="text/javascript"></script>
     </head>
     <body>
         <header class="languagebar">
@@ -23,12 +25,36 @@
         </div>
         <div class="body-block main-wrapper">
             <!-- FIXME -->
-            <!-- <section class="countdown">
-                <h2>Onko Länsimetro vielä täällä?</h2>
-                <span>No ei ole, mutta eivät ole Cännäritkään, mutta toisin kuin Länsimetro</span>
-                <span class="countdown__counter">1w, 2d, 10h, 35min ja 2s</span>
-                <span>päästä Cännärit ovat!</span>
-            </section> -->
+            <section class="countdown">
+                <span class="countdown__title">Onko Länsimetro vielä täällä?</span>
+                <span class="countdown__text">No ei ole, mutta eivät ole Cännäritkään, mutta toisin kuin Länsimetro</span>
+                <div class="counter">
+                    <div class="counter__section">
+                        <span class="counter__digit" id="counter-w"></span>
+                        <span class="counter__unit">w</span>
+                    </div>
+                    <div class="counter__section">
+                        <span class="counter__digit" id="counter-d"></span>
+                        <span class="counter__unit">d</span>
+                    </div>
+                    <div class="counter__section">
+                        <span class="counter__digit" id="counter-h-1"></span>
+                        <span class="counter__digit" id="counter-h-2"></span>
+                        <span class="counter__unit">h</span>
+                    </div>
+                    <div class="counter__section">
+                        <span class="counter__digit" id="counter-min-1"></span>
+                        <span class="counter__digit" id="counter-min-2"></span>
+                        <span class="counter__unit">min</span>
+                    </div>
+                    <div class="counter__section">
+                        <span class="counter__digit" id="counter-s-1"></span>
+                        <span class="counter__digit" id="counter-s-2"></span>
+                        <span class="counter__unit">s</span>
+                    </div>
+                </div>
+                <span class="countdown__text">päästä Cännärit ovat!</span>
+            </section>
             <!-- FIXME -->
             <section class="info section">
                 <h2>Cännärit</h2>
