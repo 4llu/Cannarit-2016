@@ -40,7 +40,8 @@ $(document).ready(function() {
         }
         else {
             clearInterval(interval);
-            $(".countdown").html("<h1>Cännärit ovat täällä!</h1>");
+            $("#is-not-here").addClass("u-hide");
+            $("#is-here").removeClass("u-hide");
         }
     }
 });

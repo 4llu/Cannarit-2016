@@ -11,5 +11,13 @@
     li {
         display: inline-block;
         padding-left: .5rem;
+
+        a {
+            color: rgba(#03a1ff, 0.8);
+
+            &:hover {
+                color: rgba(#03a1ff, 0.6);
+            }
+        }
     }
 }
