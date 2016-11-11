@@ -31,8 +31,8 @@ $(document).ready(function() {
             min2.text(minT % 10);
 
             var hT = Math.floor((dif / (1000 * 60 * 60))) % 24;
-            h1.text(hT % 10);
-            h2.text(hT);
+            h1.text(Math.floor(hT /10));
+            h2.text(hT%10);
 
             dT = Math.floor((dif / (1000 * 60 * 60 * 24)));
             d.text(dT % 7);
