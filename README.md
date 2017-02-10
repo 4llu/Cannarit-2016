@@ -1,7 +1,7 @@
 Cännärit 2016
 =============
 
-Aalto yliopiston Tietokillan järjestämien juhlien kotisivut.
+Aalto yliopiston Tietokillan järjestämien juhlien kotisivut, [cannarit.tietokilta.fi](http://cannarit.tietokilta.fi/).
 
 ## Käyttöhjeet
 
